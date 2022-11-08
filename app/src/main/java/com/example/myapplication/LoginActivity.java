@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding=ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        firebaseAuth=FirebaseAuth.getInstance();
 
         textView=findViewById(R.id.textviewreg);
         textView2=findViewById(R.id.buttonlogin);
