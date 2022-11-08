@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dfsdfs"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Welcome!"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register to continue"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:textSize="14dp"
+            android:textStyle="italic"></TextView>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="NewApi">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"></TextView>
+            <EditText
+                android:id="@+id/edittextlogin"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="email@gmail.com"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                ></EditText>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"></TextView>
+            <EditText
+                android:id="@+id/edittextposswordlog"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="*******"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                ></EditText>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#2364D5"
+                android:layout_gravity="center"
+                app:cardPreventCornerOverlap="true">
+                <TextView
+                    android:id="@+id/buttonlogin"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"></TextView>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/textviewreg"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registeratsiya qilish ! "
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textColor="@color/white"></TextView>
+        </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressborlog"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ProgressBar>
+    </LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "304819204446",
+    "project_id": "nimagap-b5b0a",
+    "storage_bucket": "nimagap-b5b0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304819204446:android:61ea02bfd651a840aa1fcf",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304819204446-2j8s154k84ojfsdjkv923jh2hl7buq1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZYWjl0E-PBs7_CVyRSJYTsvLRXm5lHjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304819204446-2j8s154k84ojfsdjkv923jh2hl7buq1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
